@@ -74,17 +74,17 @@ Open the index.html in your browser
 
 Simply double-click the index.html file or open it using your browser's Open File option.
 
-🎯 Usage
+## 🎯 Usage
 Explore the different sections of the website.
 
 Test responsiveness by resizing the browser window or opening the site on different devices.
 
 Interact with dynamic elements (e.g., buttons, menus) to see the JavaScript in action.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! If you have suggestions, ideas, or want to improve the project:
 
-Fork the repository.
+## Fork the repository.
 
 Create your feature branch (git checkout -b feature/YourFeature).
 
@@ -94,8 +94,8 @@ Push to the branch (git push origin feature/YourFeature).
 
 Open a Pull Request.
 
-📄 License
+## 📄 License
 This project is open-source and available under the MIT License.
 
-🔗 Connect
+## 🔗 Connect
 Feel free to check out more projects on my GitHub Profile!
