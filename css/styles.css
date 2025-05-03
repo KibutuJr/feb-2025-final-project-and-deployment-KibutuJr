@@ -1,0 +1,36 @@
+/* Reset & Base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+img { max-width: 100%; display: block; }
+
+/* Navbar */
+.navbar { display: flex; justify-content: space-between; align-items: center; background: #333; padding: 1rem; }
+.navbar .logo { color: #fff; font-size: 1.5rem; text-decoration: none; }
+.nav-links { list-style: none; display: flex; gap: 1rem; }
+.nav-links a { color: #fff; text-decoration: none; }
+.hamburger { display: none; font-size: 1.5rem; background: none; border: none; color: #fff; }
+
+/* Hero Section */
+.hero { text-align: center; padding: 4rem 1rem; background: #f4f4f4; }
+.hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+.hero p { font-size: 1.2rem; }
+
+/* Image Slider */
+.slider { position: relative; max-width: 800px; margin: 2rem auto; overflow: hidden; }
+.slides { display: flex; transition: transform 0.5s ease-in-out; }
+.slider button { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: #fff; border: none; padding: 0.5rem; cursor: pointer; }
+#prev { left: 10px; }
+#next { right: 10px; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links { display: none; flex-direction: column; background: #333; position: absolute; top: 100%; left: 0; width: 100%; }
+  .hamburger { display: block; }
+}
+
+/* Contact Form */
+.contact-form { max-width: 600px; margin: 2rem auto; padding: 1rem; background: #f9f9f9; border-radius: 8px; }
+.contact-form label { display: block; margin-top: 1rem; }
+.contact-form input, .contact-form textarea { width: 100%; padding: 0.5rem; margin-top: 0.5rem; }
+.contact-form button { margin-top: 1rem; padding: 0.7rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; background: #333; color: #fff; }
+.form-error { border: 1px solid red; }
