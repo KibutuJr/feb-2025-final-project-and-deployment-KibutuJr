@@ -1,4 +1,6 @@
 Feb 2025 Final Project and Deployment
+
+
 Welcome to the Feb 2025 Final Project and Deployment — a modern, responsive, and interactive website developed as part of a frontend development project. This project demonstrates practical implementation of HTML, CSS, and JavaScript techniques to create a user-friendly and visually appealing web experience.
 
 🚀 Live Demo
